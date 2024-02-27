@@ -26,8 +26,8 @@ list.addEventListener("click", (e) => {
         save();
     }
 }, false)
-list.addEventListener("keydown", (e) => {
-    if(e.key === "enter"){
+inp.addEventListener("keypress", (e) => {
+    if(e.key === 'Enter'){
         add();
     }
 })
